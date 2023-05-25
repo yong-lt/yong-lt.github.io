@@ -1,0 +1,19 @@
+.links,.navbar {
+    background: transparent !important;
+}
+.links .iconfont {
+    font-size: 18px !important;
+}
+.navbar {
+    backdrop-filter: blur(3px) !important;
+}
+
+.home-blog .hero {
+    margin: auto !important;
+    color: #fff;
+}
+
+.home-blog .hero h1 {
+    font-family: Long Cang,cursive !important;
+    font-size: 1.8667rem !important;
+}
