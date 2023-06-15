@@ -80,7 +80,7 @@
                 userID: user.id,
                 nickName: user.nickname,
                 isAdmin: user.userAttr.isAdmin,
-                isFans: user.fansClub.data.level && userFansClubStatus,
+                isFans: user.fansClub.data.level && user.fansClub.data.userFansClubStatus,
                 fansLevel: user.fansClub.data.level,
             };
             return msg;
